@@ -1,0 +1,22 @@
+{
+    "name": "damasiocode/shorter",
+    "description": "Shorter is a web application to shorten and save links.",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Damasio",
+            "email": "damasio.dan7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5"
+    }
+}
