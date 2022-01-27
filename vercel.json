@@ -1,11 +1,10 @@
 {
     "functions": {
-      "public/index.php": {
-        "runtime": "vercel-php@0.3.1"
+      "api/*.php": {
+        "runtime": "vercel-php@0.4.0"
       }
     },
-    "rewrites": [
-      { "source": "/favicon.ico", "destination": "shorter-exncian55-damasiocode.vercel.app/favicon.ico" },
-      { "source": "/(.*)", "destination": "/public/index.php" }
+    "routes": [
+      { "src": "/(.*)",  "dest": "/api/index.php" }
     ]
-  }
+}
